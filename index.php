@@ -5,7 +5,7 @@
  {
      echo "failed to connect to db".mysqli_connect_errno();
  }
- $query = mysqli_query($con, "INSERT INTO test VALUES(NULL, 'paul')");
+ //$query = mysqli_query($con, "INSERT INTO test VALUES(NULL, 'paul')");
 ?>
 
 <!DOCTYPE html>
